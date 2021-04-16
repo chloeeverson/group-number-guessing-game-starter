@@ -62,7 +62,7 @@ function addGuess(){
   })
   .then (function(response) {
     console.log('Added guess', response);
-    //getQuotes(); come back after get function 
+    getGuesses(); //come back after get function 
   })
   .catch(function( error ){
     console.log('Error from server', error);
