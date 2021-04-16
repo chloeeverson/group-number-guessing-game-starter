@@ -14,11 +14,26 @@
     <h1>YOUR GAME HERE!</h1>
         <section>
           <h2>Answer Input</h2>
-          <div>
+          <div class="guesses">
             <input id="in-number-one" type="text" placeholder="Guess 1"/>
             <input id="in-number-two" type="text" placeholder="Guess 2"/>
             <button id="in-submit" type="submit">Submit Answer</button>
           </div>
         </section>
+        <section>
+          <h2>All Guesses:</h2>
+          <div>
+              <table>
+                  <thead>
+                      <tr>
+                          <th>Person 1</th>
+                          <th>Person 2</th>
+                      </tr>
+                  </thead>
+                  <tbody id="guesses">
+                  </tbody>
+              </table>
+          </div>
+      </section>
 </body>
 </html>
